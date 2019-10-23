@@ -7,7 +7,7 @@ module.exports = {
     transform: {
         "^.*\\.tsx?$": "ts-jest"
     },
-    testPathIgnorePatterns: ["/build/", "/node_modules/"],
+    testPathIgnorePatterns: ["dist", "/build/", "/node_modules/"],
     globals: {
         "ts-jest": {
             packageJson: "package.json"
