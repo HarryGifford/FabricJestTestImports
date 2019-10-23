@@ -1,0 +1,32 @@
+{
+  "name": "fabric-test",
+  "version": "1.0.0",
+  "description": "A simple demonstration that shows jest tests fail with new Fabric.",
+  "main": "dist/index",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "jest"
+  },
+  "author": "Harry Gifford",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "office-ui-fabric-react": "^7.6.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@jest/types": "^24.8.0",
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
